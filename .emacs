@@ -1,0 +1,1 @@
+/home/gnewton/.emacs
