@@ -1,3 +1,13 @@
+(shell "h")
+(shell "g")
+(shell "f")
+(shell "e")
+(shell "d")
+(shell "c")
+(shell "b")
+(shell "a")
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -38,9 +48,6 @@
 (setq visible-bell nil)             ; Disable annoying visual bell graphic
 (setq ring-bell-function 'ignore)   ; Disable super annoying audio bell
 
-;; From https://github.com/jordonbiondo/ample-theme
-(load-theme 'ample t)
-(enable-theme 'ample)
 
 (defun my-go-mode-hook ()
   (add-hook 'before-save-hook 'gofmt-before-save) ; gofmt before every save
@@ -56,3 +63,16 @@
 ;; Ensure the go specific autocomplete is active in go-mode.
 (with-eval-after-load 'go-mode
    (require 'go-autocomplete))
+
+;; From https://github.com/jordonbiondo/ample-theme
+(load-theme 'ample t)
+(enable-theme 'ample)
+
+(shell "h")
+(shell "g")
+(shell "f")
+(shell "e")
+(shell "d")
+(shell "c")
+(shell "b")
+(shell "a")
